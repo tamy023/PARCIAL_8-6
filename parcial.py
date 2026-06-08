@@ -102,8 +102,8 @@ while opcion !=7:
                     menor = stocks[i]
                     sto=i
             print("producto con menor cantidad de stock: ")
-            print(f"nombre: {nombres:[sto]}")
-            print(f"stock: {stocks:[sto]}")
+            print(f"nombre: {nombres[sto]}")
+            print(f"stock: {stocks[sto]}")
     elif opcion == 6:
         if len(precios)==0:
             print("valor total $0.00")
